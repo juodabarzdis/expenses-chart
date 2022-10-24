@@ -1,0 +1,56 @@
+.bot-container {
+  background-color: var(--very-pale-orange);
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.bot-chart {
+  height: 210px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .bot-chart {
+    height: 250px;
+  }
+}
+
+.total-h3 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.total-h3 span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bot-bot {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.bot-bot__right {
+  height: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: right;
+}
+
+.bot-bot__right p {
+  position: absolute;
+  display: block;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.bot-bot__right span {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+}

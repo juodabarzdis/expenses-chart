@@ -1,0 +1,59 @@
+.app-top {
+  background-color: var(--soft-red);
+  color: var(--very-pale-orange);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+h1 span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.app-top__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-top__button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--dark-brown);
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.app-top__button:hover {
+  background-color: var(--cyan);
+}
+
+.app-top__button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid var(--cream);
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-25px);
+}
+
+.app-top__button:hover::before {
+  transform: translateX(0px);
+}

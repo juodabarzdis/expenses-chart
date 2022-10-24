@@ -1,0 +1,14 @@
+.chart {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  margin: 20px 0;
+  border-bottom: 3px solid var(--cream);
+}
+
+@media screen and (max-width: 768px) {
+  .chart {
+    height: 250px;
+  }
+}
