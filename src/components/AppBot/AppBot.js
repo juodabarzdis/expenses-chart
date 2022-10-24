@@ -6,7 +6,7 @@ const AppBot = () => {
   return (
     <div className="bot-container">
       <div className="bot-title">
-        <h1>Spending - Last 7 days</h1>
+        <h2>Spending - Last 7 days</h2>
       </div>
       <div className="bot-chart">
         <Chart />
