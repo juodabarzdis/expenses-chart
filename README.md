@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Project screenshot](./public/frontendmentor spendings.jpg)
+![Project screenshot](./public/frontendmentor-spendings.jpg)
 
 ### Links
 
