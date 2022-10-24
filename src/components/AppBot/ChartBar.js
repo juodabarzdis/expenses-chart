@@ -19,7 +19,9 @@ const ChartBar = (props) => {
                 : "chart-bar__fill"
             }
             style={{ height: barFillHeight }}
-          ></div>
+          >
+            <div className="chart-bar__amount">{props.amount}</div>
+          </div>
         </div>
         <div className="chart-day">{props.day}</div>
       </div>
